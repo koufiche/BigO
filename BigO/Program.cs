@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BigO
 {
@@ -10,6 +6,10 @@ namespace BigO
     {
         static void Main(string[] args)
         {
+            //Puause to display Hello world 
+            Console.WriteLine("Press any key to continue"); 
+            Console.WriteLine("Hello world");          
+            Console.ReadKey(true);
         }
     }
 }
